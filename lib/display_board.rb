@@ -13,15 +13,15 @@ def square_line_middle(board)
     print " #{board[i]} "
     print "|"
   end
-  puts " #{board} [5] "
+  puts " #{board[5]} "
 end
 
 def square_line_bottom(board)
   for i in 6..7
-    print board[i]
+    print " #{board[i]} "
     print "|"
   end
-  puts board [8]
+  puts " #{board[8]} "
 end
 
 def line_line
